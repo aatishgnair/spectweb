@@ -562,7 +562,7 @@ automate market intelligence" />
 				<!-- <li class=""><a href="#about">About Us</a></li>
 				<li class=""><a href="#services">Services</a></li>
 				<li class=""><a href="#portfolio">Portfolio</a></li> -->
-				<li class=""><a href="#contact">Contact</a></li>
+				<li class="active"><a href="#contact">Contact</a></li>
 				<li class="last-grid"><a href="#register">Register now</a></li>
 			</ul>
 		</nav>
@@ -584,7 +584,7 @@ automate market intelligence" />
 					<input type="radio" name="slides" id="slides_3" />
 					<ul class="banner_slide_bg">
 						<li>
-							<div class="w3ls_banner_txt">
+							<div class="w3ls_banner_txt" >
 
 								<h3 class="b-w3ltxt text-capitalize mt-md-4">The world is changing rapidly with technology.</h3>
 
@@ -593,7 +593,7 @@ automate market intelligence" />
 							</div>
 						</li>
 						<li>
-							<div class="w3ls_banner_txt">
+							<div class="w3ls_banner_txt" >
 								<h3 class="b-w3ltxt text-capitalize mt-md-4">Through Technology we aim to provide revolutionary solutions to your burning problems</h3>
 
 								<a href="#about" class="btn btn-banner my-sm-3 mr-2">Read More</a>
@@ -609,7 +609,7 @@ automate market intelligence" />
 							</div>
 						</li>
 					</ul>
-					<div class="navigation">
+					<div class="navigation ">
 						<div>
 							<label for="slides_1"></label>
 							<label for="slides_2"></label>
@@ -622,6 +622,8 @@ automate market intelligence" />
 		</div>
 	</div>
 </div>
+
+
 <!-- //banner -->
 <!-- about -->
 <!--<section class="services py-5" id="services">
@@ -747,7 +749,7 @@ automate market intelligence" />
 		<h3 class="heading mb-sm-5 mb-3">How we deal about business</h3>
 		<div class="row">
 			<div class="col-lg-6 left-img">
-				<img src="images/about.jpg" class="img-fluid" alt="" />
+				<img src="images/about.jpeg" class="img-fluid" alt="" />
 			</div>
 			<div class="col-lg-6 mt-lg-0 mt-4">
 				<div class="row inner-heading">
@@ -792,7 +794,7 @@ automate market intelligence" />
 				</div>
 			</div>
 			<div class="col-lg-6 left-img">
-				<img src="images/st11.png" class="img-fluid" alt="" />
+				<img src="images/laptop-g012f2d4ba_640-removebg-preview.png" class="img-fluid" alt="" />
 			</div>
 		</div>
 	</div>
@@ -813,8 +815,10 @@ automate market intelligence" />
 						<h3 class="title">AATISH G NAIR</h3>
 						<span class="post">Founder & CEO</span>
 						<ul class="social">
+							<li><a href="https://in.linkedin.com/in/aatishgnair"><span class="fa fa-linkedin"></span></a></li>
 							<li><a href="https://facebook.com/aatishgnair"><span class="fa fa-facebook"></span></a></li>
 							<li><a href="https://twitter.com/aatishgnair"><span class="fa fa-twitter"></span></a></li>
+							
 						</ul>
 					</div>
 				</div>
@@ -826,18 +830,19 @@ automate market intelligence" />
 						<h3 class="title">GANESH BYJU</h3>
 						<span class="post">Managing Director</span>
 						<ul class="social">
-							<li><a href="#"><span class="fa fa-facebook"></span></a></li>
-							<li><a href="#"><span class="fa fa-twitter"></span></a></li>
+							<li><a href="https://instagram.com/ganeshbyju"><span class="fa fa-instagram"></span></a></li>
+							<li><a href="https://in.linkedin.com/in/ganeshbyju"><span class="fa fa-linkedin"></span></a></li>
+							<li><a href="https://twitter.com/ganeshbyju"><span class="fa fa-twitter"></span></a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
-			<!-- <div class="col-lg-3 col-sm-6 mb-4">
+			<div class="col-lg-3 col-sm-6 mb-4">
 				<div class="box13">
-					<img src="images/team3.jpg" class="img-fluid img-thumbnail" alt="" />
+					<img src="images/bravo.png" class="img-fluid img-thumbnail" alt="" />
 					<div class="box-content">
-          <h3 class="title">GANESH BYJU</h3>
-          <span class="post">Managing Director</span>
+          <h3 class="title"> </h3>
+          <span class="post"></span>
 						<ul class="social">
 							<li><a href="#"><span class="fa fa-facebook"></span></a></li>
 							<li><a href="#"><span class="fa fa-twitter"></span></a></li>
@@ -847,7 +852,7 @@ automate market intelligence" />
 			</div>
 			<div class="col-lg-3 col-sm-6 mb-4">
 				<div class="box13">
-					<img src="images/team4.jpg" class="img-fluid img-thumbnail" alt="" />
+					<img src="images/bravo.png" height="20px" class="img-fluid img-thumbnail" alt="" />
 					<div class="box-content">
 						<h3 class="title">bravo</h3>
 						<span class="post">sales manager</span>
@@ -859,7 +864,7 @@ automate market intelligence" />
 				</div>
 			</div>
 		</div>
-	</div> -->
+	</div>
 </section>
 <!-- //team -->
 
@@ -1115,7 +1120,7 @@ automate market intelligence" />
 <div class="copyright">
 	<div class="container py-4">
 		<div class=" text-center">
-			<p>© 2022 Spectma. All Rights Reserved  </p>
+			<p>© 2022 Spectma. All Rights Reserved  Last Updated On 17 July 2022 - 12:05AM  </p>
 		</div>
 	</div>
 </div>
@@ -1171,6 +1176,17 @@ automate market intelligence" />
 
 
   </script>
+  <script>let index = 1;
+	setInterval(movePicture, 1000);
+	function movePicture() {
+	  let slider = document.getElementsByClassName("slider");
+	  if (index > 8) {index = 1}
+	  for (let picture = 0; picture < slider.length; picture++) {
+		slider[picture].style.display = "none";
+	  }
+	  slider[index-1].style.display = "block";
+	  index++;
+	}  </script>
 
 
 
