@@ -102,7 +102,7 @@ nav {
     font-weight: 600;
 }
 #logo a span.fa {
-       color: #5e2ced;
+       color: #0a77dd;
     font-size: 1em;
 }
 
@@ -147,7 +147,7 @@ nav a {
 }
 nav li.last-grid a {
 
-    background:#5e2ced;
+    background:#0a77dd;
     color: #fff;
     font-size: 16px;
     letter-spacing: 2px;
@@ -165,6 +165,7 @@ nav a:hover {
 .menu li.active  a{ 
 	color: #fff;
 }
+
 
 /* Hide Dropdowns by Default
  * and giving it a position of absolute */
@@ -226,7 +227,7 @@ li > a:only-child:after { content: ''; }
 	}
 	nav li.last-grid a {
 		border: 2px solid #00aeff;
-		color: #00aeff;
+		color: #fff;
 		font-size: 15px;
 		letter-spacing: 1px;
 		padding: 10px 25px;
@@ -257,7 +258,7 @@ li > a:only-child:after { content: ''; }
 		text-decoration: none;
 		border: none;
 		float: right;
-		background-color:#5e2ced;
+		background-color:#my-sm-3 mr-2;
 		color: #fff;
 		margin-bottom: 0;
 		margin-top: 0em;
@@ -422,7 +423,7 @@ h4.b-w3ltxt {
 }
 
 .btn-banner {
-    background:#5e2ced;
+    background:#0a77dd;
     color: #fff;
     font-size: 16px;
     letter-spacing: 2px;
@@ -462,7 +463,7 @@ h4.b-w3ltxt {
 }
   .feature-grids span {
     font-weight: 800;
-    color: #5e2ced;
+    color: #0a77dd;
     font-size: 24px;
     transition: all 0.3s ease 0s;
     background: rgba(94,44,237,0.15);
@@ -492,13 +493,13 @@ h4.b-w3ltxt {
     text-align: center;
     vertical-align: middle;
     margin-right: 15px;
-    color: #5e2ced;
+    color: #0a77dd;
     font-size: 22px;
     transition: all 0.3s ease 0s;
     background: rgba(94,44,237,0.15);
 }
 .inner-heading a.btn {
-       background: #5e2ced;
+       background: #0a77dd;
     border: 2px solid #fff;
     color: #fff;
     font-size: 16px;
@@ -795,7 +796,7 @@ select {
 }
 .form-style-w3ls button.btn {
     color: #fff;
-    background-color: #5e2ced;
+    background-color: #0a77dd;
     border: none;
     padding: 14px 0;
     outline: none;
@@ -880,8 +881,8 @@ ul.price-in li {
 }
 
 .price-button a {
-        background-color: #5e2ced;
-    border-color: #5e2ced;
+        background-color: #0a77dd;
+    border-color: #0a77dd;
 	color: #fff;
     padding: 0.8em 2em;
     border-radius: 4px;
@@ -904,7 +905,7 @@ ul.price-in li {
 
 .pricing-grid span.fa {
     background: rgba(94,44,237,0.15);
-    color: #5e2ced;
+    color: #0a77dd;
     width: 80px;
     height: 80px;
     line-height: 80px;
@@ -956,7 +957,7 @@ h6.b-w3ltxt span {
     font-size: 1.4em;
 }
 .testi-cgrid {
-    background: #5e2ced;
+    background: #0a77dd;
     padding: 2em 1em;
 }
 .border-right-grid{
@@ -991,7 +992,7 @@ h6.b-w3ltxt span {
 .contact_right button {
     outline: none;
     padding: 15px 0;
-    background: #5e2ced;
+    background: #0a77dd;
     color: #fff;
     font-weight: 500;
     letter-spacing: 2px;
@@ -1084,7 +1085,7 @@ footer,.copyright{
     outline: none;
 }
 .footer-grids button.btn {
-    background: #5e2ced;
+    background: #0a77dd;
     color: #fff;
     font-size: 14px;
     width: 34% !important;
@@ -1101,7 +1102,7 @@ footer,.copyright{
     -o-border-radius: 0px;
 }
 span.fa.mr-2.fa-envelope,span.fa.mr-2.fa-phone,span.fa.mr-2.fa-map-marker {
-    color: #5e2ced;
+    color: #0a77dd;
 }
 /*-- //footer --*/
 /*-- move top --*/
